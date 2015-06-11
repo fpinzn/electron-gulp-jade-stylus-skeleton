@@ -1,4 +1,4 @@
-#gifre-desktop
+#README.md
 
 Skeleton app for electron based applications using jade, stylus and bower.
 

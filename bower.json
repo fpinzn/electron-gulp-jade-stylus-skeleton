@@ -1,0 +1,19 @@
+{
+  "name": "electron-gulp-jade-stylus-skeleton",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fpinzn/electron-gulp-jade-stylus-skeleton",
+  "authors": [
+    "Francisco Pinzon <hello@pacho.me>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0"
+  }
+}

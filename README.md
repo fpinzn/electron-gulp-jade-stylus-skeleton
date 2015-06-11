@@ -1,7 +1,8 @@
 #electron-gulp-jade-stylus-skeleton
 
-Skeleton app for electron based applications using jade and stylus.
+Skeleton app for electron based applications using jade, stylus and bower.
 
-Source files located in `src` directory.
+Source files are located in the `src` directory.
 
-`gulp build:dist` will build stylus and jade files into `dist` dir.
+`gulp build:dist` will build stylus and jade files into the `dist` dir.
+`gulp electron`

@@ -4,10 +4,15 @@ var electron = require('gulp-electron');
 var stylus = require('gulp-stylus');
 var del = require('del');
 var jade = require('gulp-jade');
+var bower = require('gulp-bower');
 
 var packageJson = require('./package.json');
 
 
+gulp.task('bower', function() {
+  return bower()
+    .pipe(gulp.dest('dist/vendor'))
+});
 
 gulp.task('clean:dist', function(cb) {
     del('./dist', cb);

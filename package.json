@@ -1,0 +1,19 @@
+{
+  "name": "electron-gulp-jade-stylus-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "git@github.com:fpinzn/electron-gulp-jade-stylus-skeleton.git",
+  "main": "dist/lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-electron": "0.0.5",
+    "gulp-jade": "^1.0.1",
+    "gulp-stylus": "^2.0.3"
+  }
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "repository": "git@github.com:fpinzn/electron-gulp-jade-stylus-skeleton.git",
-  "main": "dist/lib/main.js",
+  "main": "lib/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

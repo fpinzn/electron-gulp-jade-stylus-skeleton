@@ -1,4 +1,4 @@
-#electron-gulp-jade-stylus-skeleton
+#gifre-desktop
 
 Skeleton app for electron based applications using jade, stylus and bower.
 

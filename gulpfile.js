@@ -64,4 +64,4 @@ gulp.task('electron', ['build:dist'] ,function() {
     .pipe(gulp.dest(""));
 });
 
-gulp.task('build:dist', ['stylus', 'jade', 'copy:js', 'copy:package.json', 'copy:assets'])
+gulp.task('build:dist', ['stylus', 'jade', 'copy:js', 'copy:package.json', 'copy:assets', 'bower'])

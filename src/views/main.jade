@@ -1,2 +1,14 @@
 doctype html
-body main
+head
+	script.
+		window.$ = window.jQuery = require('../vendor/jquery/dist/jquery.js')
+
+		window.Raphael = require('../vendor/raphael/raphael.js')
+
+	script(src='../vendor/jquery-ui/jquery-ui.js')
+	script(src='../vendor/amalia.js/dist/js/amalia.js.js')
+
+	link(href='../vendor/amalia.js/dist/css/amalia.js.css')
+	script(src='../vendor/amalia.js/dist/js/i18n/amalia.js-message-en.js')
+body
+	button Open Video

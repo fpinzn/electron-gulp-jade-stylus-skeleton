@@ -12,6 +12,7 @@
   "devDependencies": {
     "del": "^1.2.0",
     "gulp": "^3.9.0",
+    "gulp-bower": "0.0.10",
     "gulp-electron": "0.0.5",
     "gulp-jade": "^1.0.1",
     "gulp-stylus": "^2.0.3"
